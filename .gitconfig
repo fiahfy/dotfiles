@@ -1,0 +1,16 @@
+[user]
+	name = fiahfy
+	email = d.fiahfy@gmail.com
+[core]
+	pager = less -r
+[color]
+	ui = true
+[alias]
+	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
+	b = branch -a
+	ci = commit
+	co = checkout
+	d = diff
+	l = log --graph -n 20 --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)- %an, %cr%Creset'
+	s = status --short --branch
+	st = status

@@ -1,5 +1,8 @@
 #!/bin/sh
 
+brew update
+brew upgrade
+
 brew tap caskroom/cask
 brew tap caskroom/versions
 
@@ -20,3 +23,5 @@ brew cask install phpstorm
 brew cask install skitch
 brew cask install skype
 brew cask install sublime-text3
+
+brew cleanup
