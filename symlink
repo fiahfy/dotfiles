@@ -3,3 +3,4 @@
 DIR=$(cd $(dirname $0); pwd)
 
 ln -sf $DIR/.gitconfig ~/.gitconfig
+ln -sf $DIR/.gitignore ~/.gitignore

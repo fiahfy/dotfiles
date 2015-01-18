@@ -2,6 +2,7 @@
 	name = fiahfy
 	email = d.fiahfy@gmail.com
 [core]
+	excludesfile = ~/.gitignore
 	pager = less -r
 [color]
 	ui = true
