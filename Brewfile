@@ -7,6 +7,7 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 
 brew install git
+brew install npm
 brew install perl
 brew install python
 brew install ruby
