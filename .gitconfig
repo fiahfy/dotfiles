@@ -1,6 +1,8 @@
 [user]
 	name = fiahfy
 	email = d.fiahfy@gmail.com
+[include]
+	path = .gitconfig.local
 [core]
 	excludesfile = ~/.gitignore
 	pager = less -r
@@ -9,6 +11,7 @@
 [alias]
 	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
 	b = branch -a
+	br = branch
 	ci = commit
 	co = checkout
 	d = diff
