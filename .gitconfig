@@ -2,7 +2,7 @@
 	name = fiahfy
 	email = d.fiahfy@gmail.com
 [include]
-	path = .gitconfig.local
+	path = ~/.gitconfig.local
 [core]
 	excludesfile = ~/.gitignore
 	pager = less -r
