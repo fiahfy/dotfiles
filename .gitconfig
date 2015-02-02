@@ -11,13 +11,17 @@
 [alias]
 	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
 	a = add -v
-	b = branch -a
+	b = branch
 	br = branch
-	br-d-all = !git branch --merged | grep -v \\* | xargs -n 1 git branch -d
+	ba = branch -a
+	bd-all = !git branch --merged | grep -v \\* | xargs -n 1 git branch -d
 	c = commit
+	ci = commit
+	cm = commit -m
 	co = checkout
 	d = diff
-	l = log --graph -n 20 --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)- %an, %cr%Creset'
+	h = log --graph -n 20 --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)- %an, %cr%Creset'
+	l = log
 	r = reset
 	s = status -s -b
 	st = status
