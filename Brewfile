@@ -15,6 +15,7 @@ brew install brew-cask
 
 brew cask install 1password
 brew cask install chromium
+brew cask install duet
 brew cask install dropbox
 brew cask install evernote
 brew cask install google-chrome
