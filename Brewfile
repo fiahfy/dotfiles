@@ -1,21 +1,16 @@
 #!/bin/sh
 
 brew update
-brew upgrade
+brew upgrade --all
 
-brew tap caskroom/cask
-brew tap caskroom/versions
-brew tap homebrew/dupes
-brew tap homebrew/php
-
-brew install composer
 brew install git
 brew install npm
 brew install perl
-brew install php56
 brew install python
 brew install ruby
-brew install brew-cask
+brew install homebrew/php/php56
+brew install homebrew/php/composer
+brew install caskroom/cask/brew-cask
 
 brew cask install 1password
 brew cask install chromium
@@ -30,4 +25,7 @@ brew cask install skitch
 brew cask install skype
 brew cask install sublime-text3
 
+brew cask cleanup
+
 brew cleanup
+
