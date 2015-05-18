@@ -9,6 +9,8 @@ brew install perl
 brew install python
 brew install ruby
 brew install homebrew/php/php56
+brew install homebrew/php/php56-apcu
+brew install homebrew/php/php56-xdebug
 brew install homebrew/php/composer
 brew install caskroom/cask/brew-cask
 
