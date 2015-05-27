@@ -13,6 +13,8 @@ brew install homebrew/php/php56-apcu
 brew install homebrew/php/php56-xdebug
 brew install homebrew/php/composer
 brew install homebrew/php/phpunit
+brew install homebrew/php/phpmd
+brew install homebrew/php/php-code-sniffer
 brew install caskroom/cask/brew-cask
 
 brew cask install 1password
