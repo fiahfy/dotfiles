@@ -28,6 +28,7 @@ brew cask install java
 brew cask install phpstorm
 brew cask install skitch
 brew cask install skype
+brew cask install slack
 brew cask install sublime-text3
 
 brew cask cleanup
