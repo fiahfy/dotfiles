@@ -3,6 +3,7 @@
 brew update
 brew upgrade --all
 
+brew install ant
 brew install git
 brew install npm
 brew install perl
@@ -15,6 +16,7 @@ brew install homebrew/php/composer
 brew install homebrew/php/phpunit
 brew install homebrew/php/phpmd
 brew install homebrew/php/php-code-sniffer
+brew install Caskroom/cask/sshfs
 brew install caskroom/cask/brew-cask
 
 brew cask install 1password
@@ -22,6 +24,7 @@ brew cask install chromium
 brew cask install dropbox
 brew cask install duet
 brew cask install evernote
+brew cask install firefox
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install java
