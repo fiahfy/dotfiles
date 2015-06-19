@@ -16,7 +16,6 @@ brew install homebrew/php/composer
 brew install homebrew/php/phpunit
 brew install homebrew/php/phpmd
 brew install homebrew/php/php-code-sniffer
-brew install Caskroom/cask/sshfs
 brew install caskroom/cask/brew-cask
 
 brew cask install 1password
@@ -32,6 +31,7 @@ brew cask install phpstorm
 brew cask install skitch
 brew cask install skype
 brew cask install slack
+brew cask install sshfs
 brew cask install sublime-text3
 
 brew cask cleanup
