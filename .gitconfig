@@ -23,6 +23,7 @@
 	h = log --graph -n 20 --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)- %an, %cr%Creset'
 	l = log
 	r = reset
+	rp = remote prune
 	s = status -s -b
 	st = status
 [http]
