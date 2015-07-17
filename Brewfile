@@ -20,6 +20,7 @@ brew install caskroom/cask/brew-cask
 
 brew cask install 1password
 brew cask install chromium
+brew cask install darteditor
 brew cask install dropbox
 brew cask install duet
 brew cask install evernote
