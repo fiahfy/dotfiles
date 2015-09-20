@@ -5,6 +5,7 @@ brew upgrade --all
 
 brew install ant
 brew install git
+brew install heroku-toolbelt
 brew install npm
 brew install perl
 brew install python
@@ -16,7 +17,8 @@ brew install homebrew/php/composer
 brew install homebrew/php/phpunit
 brew install homebrew/php/phpmd
 brew install homebrew/php/php-code-sniffer
-brew install caskroom/cask/brew-cask
+brew install ravenac95/sudolikeaboss/sudolikeaboss
+brew install brew-cask
 
 brew cask install 1password
 brew cask install chromium
