@@ -23,6 +23,7 @@ brew install ravenac95/sudolikeaboss/sudolikeaboss
 brew install brew-cask
 
 brew cask install 1password
+brew cask install atom
 brew cask install chromium
 brew cask install darteditor
 brew cask install dropbox
