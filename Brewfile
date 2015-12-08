@@ -30,6 +30,7 @@ brew cask install dropbox
 brew cask install duet
 brew cask install evernote
 brew cask install firefox
+brew cask install github-desktop
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install java
@@ -40,6 +41,7 @@ brew cask install skype
 brew cask install slack
 brew cask install sshfs
 brew cask install sublime-text3
+brew cask install virtualbox
 
 brew cask cleanup
 
