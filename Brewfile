@@ -6,6 +6,7 @@ brew upgrade --all
 brew install ant
 brew install git
 brew install heroku-toolbelt
+brew install mongodb
 brew install npm
 brew install perl
 brew install python
