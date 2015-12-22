@@ -34,6 +34,7 @@ brew cask install github-desktop
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install java
+brew cask install parse
 brew cask install phpstorm
 brew cask install sequel-pro
 brew cask install skitch
