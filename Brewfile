@@ -4,6 +4,9 @@ brew update
 brew upgrade --all
 
 brew install ant
+brew install docker
+brew install docker-machine
+brew install docker-compose
 brew install git
 brew install heroku-toolbelt
 brew install mongodb
