@@ -8,12 +8,14 @@ brew install docker
 brew install docker-machine
 brew install docker-compose
 brew install git
+brew install gradle
 brew install heroku-toolbelt
 brew install mongodb
 brew install npm
 brew install perl
 brew install python
 brew install ruby
+brew install watchman
 brew install wget
 brew install homebrew/php/php56
 brew install homebrew/php/php56-apcu
@@ -26,6 +28,7 @@ brew install ravenac95/sudolikeaboss/sudolikeaboss
 brew install brew-cask
 
 brew cask install 1password
+brew cask install android-studio
 brew cask install atom
 brew cask install chromium
 brew cask install darteditor
