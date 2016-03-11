@@ -17,9 +17,6 @@ brew install python
 brew install ruby
 brew install watchman
 brew install wget
-brew install homebrew/php/php56
-brew install homebrew/php/php56-apcu
-brew install homebrew/php/php56-xdebug
 brew install homebrew/php/composer
 brew install homebrew/php/phpunit
 brew install homebrew/php/phpmd
