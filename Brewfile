@@ -9,7 +9,6 @@ brew install docker-machine
 brew install docker-compose
 brew install git
 brew install gradle
-brew install heroku-toolbelt
 brew install mongodb
 brew install npm
 brew install perl
