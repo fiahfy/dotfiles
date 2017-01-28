@@ -1,7 +1,7 @@
 #!/bin/sh
 
 brew update
-brew upgrade --all
+brew upgrade
 
 brew install ant
 #brew install docker
