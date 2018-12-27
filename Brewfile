@@ -12,8 +12,8 @@ brew install git
 # brew install mongodb
 brew install npm
 # brew install perl
-brew install python
-brew install ruby
+# brew install python
+# brew install ruby
 # brew install watchman
 # brew install wget
 # brew install homebrew/php/composer
@@ -32,9 +32,9 @@ brew cask install github-desktop
 brew cask install google-chrome
 brew cask install iterm2
 # brew cask install java
-brew cask install phpstorm
-brew cask install sequel-pro
-brew cask install slack
+# brew cask install phpstorm
+# brew cask install sequel-pro
+# brew cask install slack
 # brew cask install sshfs
 # brew cask install virtualbox
 brew cask install visual-studio-code
