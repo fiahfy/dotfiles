@@ -33,9 +33,12 @@ brew cask install google-chrome
 brew cask install iterm2
 # brew cask install java
 # brew cask install phpstorm
+# brew cask install postman
 # brew cask install sequel-pro
+# brew cask install skitch
 # brew cask install slack
 # brew cask install sshfs
+# brew cask install station
 # brew cask install virtualbox
 brew cask install visual-studio-code
 
