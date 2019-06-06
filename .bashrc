@@ -11,3 +11,6 @@ fi
 if [ -f ~/.bashrc.local ]; then
 	. ~/.bashrc.local
 fi
+
+eval "$(nodenv init -)"
+

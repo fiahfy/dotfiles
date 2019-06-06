@@ -11,9 +11,11 @@ brew install git
 # brew install gradle
 # brew install mongodb
 brew install npm
+brew install nodenv
 # brew install perl
 # brew install python
 # brew install ruby
+# brew install telnet
 # brew install watchman
 # brew install wget
 # brew install homebrew/php/composer
@@ -21,6 +23,7 @@ brew install npm
 # brew install homebrew/php/phpmd
 # brew install homebrew/php/php-code-sniffer
 # brew install ravenac95/sudolikeaboss/sudolikeaboss
+brew install yarn
 
 brew cask install 1password
 # brew cask install android-studio
