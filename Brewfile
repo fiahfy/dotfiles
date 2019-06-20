@@ -4,17 +4,19 @@ brew update
 brew upgrade
 
 # brew install ant
+brew install bash-completion
 # brew install docker
 # brew install docker-compose
 # brew install docker-machine
 brew install git
 # brew install gradle
 # brew install mongodb
-brew install npm
 brew install nodenv
+brew install npm
 # brew install perl
 # brew install python
-# brew install ruby
+brew install rbenv
+brew install ruby
 # brew install telnet
 # brew install watchman
 # brew install wget
@@ -44,7 +46,5 @@ brew cask install iterm2
 # brew cask install station
 # brew cask install virtualbox
 brew cask install visual-studio-code
-
-brew cask cleanup
 
 brew cleanup

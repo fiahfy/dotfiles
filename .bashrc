@@ -12,5 +12,10 @@ if [ -f ~/.bashrc.local ]; then
 	. ~/.bashrc.local
 fi
 
+# bash-completion
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+# nodenv
 eval "$(nodenv init -)"
-
+# rbenv
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+eval "$(rbenv init -)"
