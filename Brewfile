@@ -22,6 +22,6 @@ cask "iterm2"
 cask "skitch"
 cask "visual-studio-code"
 
-# @see https://github.com/Homebrew/homebrew-bundle/issues/480
+tap "fiahfy/tap"
 cask "fiahfy/tap/hosty"
 cask "fiahfy/tap/uni"
