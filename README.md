@@ -2,7 +2,7 @@
 
 ## Install dependencies
 ```
-brew bundle
+brew bundle [--file=Brewfile]
 ```
 
 ## Setup dotfiles
