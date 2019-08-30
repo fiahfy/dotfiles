@@ -7,15 +7,20 @@ brew "anyenv"
 brew "awscli", link: false
 brew "bash-completion"
 brew "cmake"
+brew "cowsay"
 brew "curl"
+brew "dep"
 brew "ghostscript"
 brew "git"
 brew "git-secrets"
 brew "imagemagick"
 brew "jq"
 brew "libmagic"
-brew "mysql@5.7", link: true
+brew "memcached"
+brew "mysql@5.7", restart_service: true, link: true
+brew "redis", restart_service: true
 brew "telnet"
+brew "vim"
 brew "wget"
 brew "wine"
 brew "yarn"
