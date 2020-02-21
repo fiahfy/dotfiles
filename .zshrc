@@ -3,6 +3,9 @@ autoload -Uz compinit && compinit
 
 PROMPT="%{$fg[cyan]%}[%n@%m:%{$fg[yellow]%}%~%{$fg[cyan]%}]%{$reset_color%} $ "
 
+setopt noautomenu
+#setopt nomenucomplete
+
 if [ `uname` = 'Darwin' ]; then
 	alias ls='ls -G'
 	alias ll='ls -lG'
