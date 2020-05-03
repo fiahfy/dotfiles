@@ -1,5 +1,5 @@
 autoload -Uz colors && colors
-autoload -Uz compinit && compinit
+autoload -Uz compinit && compinit -u
 
 PROMPT="%{$fg[cyan]%}[%n@%m:%{$fg[yellow]%}%~%{$fg[cyan]%}]%{$reset_color%} $ "
 
