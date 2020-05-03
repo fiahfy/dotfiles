@@ -14,8 +14,10 @@ else
 	alias ll='ls -l --color=auto'
 fi
 
-
-[[ -f ~/.zshrc.local ]] && . ~/.zshrc.local
-
 # zsh-completion
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+# anyenv
+eval "$(anyenv init -)"
+
+[[ -f ~/.zshrc.local ]] && . ~/.zshrc.local

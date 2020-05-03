@@ -8,8 +8,10 @@ else
 	alias ll='ls -l --color=auto'
 fi
 
-
-[[ -f ~/.bashrc.local ]] && . ~/.bashrc.local
-
 # bash-completion
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+# anyenv
+eval "$(anyenv init -)"
+
+[[ -f ~/.bashrc.local ]] && . ~/.bashrc.local
