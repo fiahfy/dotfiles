@@ -1,19 +1,21 @@
 # dotfiles
 
-## Install dependencies
+## Setup
+
+### Install dependencies
 
 ```bash
 brew bundle [--file=Brewfile]
 ```
 
-## Dump dependencies
+### Dump dependencies
 
 ```bash
 brew bundle dump [--file=Brewfile]
 ```
 
-## Setup dotfiles
+### Setup dotfiles
 
 ```bash
-./symlink
+./setup_symlink
 ```
