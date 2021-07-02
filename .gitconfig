@@ -6,6 +6,8 @@
 	pager = less -r
 [color]
 	ui = true
+[pull]
+	ff = only
 [push]
 	default = simple
 [alias]
