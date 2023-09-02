@@ -5,7 +5,7 @@
 ### Install dependencies
 
 ```bash
-brew bundle [--file=Brewfile]
+brew bundle --no-lock [--file=Brewfile]
 ```
 
 ### Dump dependencies
