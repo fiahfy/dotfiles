@@ -11,7 +11,7 @@ fi
 # bash-completion
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
-# anyenv
-eval "$(anyenv init -)"
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 [[ -f ~/.bashrc.local ]] && . ~/.bashrc.local

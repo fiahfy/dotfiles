@@ -1,23 +1,34 @@
+setopt noautomenu
+#setopt nomenucomplete
+
 autoload -Uz colors && colors
 autoload -Uz compinit && compinit -u
 
 PROMPT="%{$fg[cyan]%}[%n@%m:%{$fg[yellow]%}%~%{$fg[cyan]%}]%{$reset_color%} $ "
 
-setopt noautomenu
-#setopt nomenucomplete
+if type brew &>/dev/null; then
+	# zsh-completion
+	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+	# @see https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
+	FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 
-if [ `uname` = 'Darwin' ]; then
-	alias ls='ls -G'
-	alias ll='ls -lG'
-else
-	alias ls='ls --color=auto'
-	alias ll='ls -l --color=auto'
+	autoload -Uz compinit
+	compinit
 fi
 
-# zsh-completion
-fpath=(/usr/local/share/zsh-completions $fpath)
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# anyenv
-eval "$(anyenv init -)"
+# asdf
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# direnv
+eval "$(direnv hook zsh)"
+
+alias ls='ls -G'
+alias ll='ls -lG'
+
+alias gcd='cd $(ghq list -p | peco)'
+alias gcode='code $(ghq list -p | peco)'
 
 [[ -f ~/.zshrc.local ]] && . ~/.zshrc.local
