@@ -22,6 +22,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
+# yarn
+export PATH="$(yarn global bin):$PATH"
+
 # direnv
 eval "$(direnv hook zsh)"
 
