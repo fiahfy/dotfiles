@@ -28,6 +28,7 @@
 	rp = remote prune
 	s = status -s -b
 	st = status
+	sw = switch
 [http]
 	sslVerify = false
 [include]

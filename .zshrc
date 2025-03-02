@@ -20,10 +20,7 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-
-# yarn
-export PATH="$(yarn global bin):$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # direnv
 eval "$(direnv hook zsh)"
