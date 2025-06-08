@@ -16,6 +16,7 @@ if type brew &>/dev/null; then
 	compinit
 fi
 
+
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -25,10 +26,15 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # direnv
 eval "$(direnv hook zsh)"
 
+# npm
+export PATH="`npm prefix -g`/bin:$PATH"
+
+
 alias ls='ls -G'
 alias ll='ls -lG'
 
 alias gcd='cd $(ghq list -p | peco)'
 alias gcode='code $(ghq list -p | peco)'
+
 
 [[ -f ~/.zshrc.local ]] && . ~/.zshrc.local
