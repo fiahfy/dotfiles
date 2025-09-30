@@ -11,7 +11,7 @@ brew bundle --no-lock [--file=Brewfile]
 ### Dump dependencies
 
 ```bash
-brew bundle dump [--file=Brewfile]
+brew bundle dump [--file=Brewfile] --no-vscode
 ```
 
 ### Setup dotfiles
