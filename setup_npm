@@ -1,0 +1,8 @@
+#!/bin/sh
+
+npm i -g corepack@0.34.0
+npm i -g fixpack@4.0.0
+npm i -g npm-check-updates@19.0.0
+npm i -g npm@11.6.0
+
+npm ls -g

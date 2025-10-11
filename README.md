@@ -19,3 +19,9 @@ brew bundle dump [--file=Brewfile] --no-vscode
 ```bash
 ./setup_symlink
 ```
+
+### Setup global npm packages
+
+```bash
+./setup_npm
+```
