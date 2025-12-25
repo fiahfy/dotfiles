@@ -21,9 +21,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # direnv
 eval "$(direnv hook zsh)"
 
-# npm
-export PATH="`npm prefix -g`/bin:$PATH"
-
 # asdf
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
